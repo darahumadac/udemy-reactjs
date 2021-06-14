@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="ui container comments">
       <CommentDetail
-        profilePic={faker.image.avatar()}
+        profilePic={faker.image.avatar()} //pass props
         author="Sam"
         timeAgo="Today at 4:50PM"
         comment="Nice"

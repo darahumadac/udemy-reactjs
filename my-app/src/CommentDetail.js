@@ -1,6 +1,7 @@
 import React from 'react';
 import faker from 'faker';
 
+//props to pass in properties/data from parent to child component
 const CommentDetail = (props) => {
   console.log(props);
   return (
